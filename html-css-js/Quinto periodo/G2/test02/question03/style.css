@@ -1,0 +1,10 @@
+body{
+    background-color: #222;
+    color: white;
+    font-size: 200%;
+}
+
+#res{
+    width: 50%;
+    margin: 100px auto;
+}

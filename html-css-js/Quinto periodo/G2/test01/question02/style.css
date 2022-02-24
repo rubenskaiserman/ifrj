@@ -1,0 +1,51 @@
+body {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: goldenrod;
+    background-color: black;
+}
+
+h1 {
+    font-size: 300%;
+}
+
+input {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 0 10px;
+    font-size: 150%;
+    width: 40%;
+    height: 40px;
+    background-color: black;
+    border: solid goldenrod 5px;
+    border-radius: 10px 10px 10px 10px;
+    color: goldenrod;
+}
+
+button {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 150%;
+    color: goldenrod;
+    background-color: black;
+    width: 10%;
+    height: 50px;
+    border: solid goldenrod 5px;
+    border-radius: 10px 10px 10px 10px;
+    text-align: center;
+}
+
+button:hover {
+    background-color: goldenrod;
+    color: black;
+}
+
+input[type="number"] {
+    -webkit-appearance: textfield;
+    -moz-appearance: textfield;
+    appearance: textfield;
+}
+
+#res {
+    margin-top: 200px;
+    font-size: 500%;
+    color: goldenrod;
+}

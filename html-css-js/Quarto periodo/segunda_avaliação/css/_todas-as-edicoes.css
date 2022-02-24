@@ -1,0 +1,55 @@
+body{
+    background-color: #191970;
+}
+
+.folhas{
+    background-color: green;
+    height: 2em;
+    width: 2em;
+    border-radius: 200px 200px;
+    box-shadow: 0px 25px 0 25px green;
+}
+
+.maca{
+    background-color: yellow;
+    height: 2em;
+    width: 2em;
+    border-radius: 200px 200px;
+    z-index: 100;
+}
+
+.camadas{
+    display: inline-block;
+    align-content: center;
+}
+.camada{
+    text-align: center;
+}
+
+#tronco{
+    height: 20em;
+    width: 4em;
+    background-color: saddlebrown;
+    margin: 0 auto;
+}
+
+#solo{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 5em;
+    background-color: green;
+}
+
+#lua{
+    border-radius: 200px 200px;
+    height: 6em;
+    width: 6em;
+    position:absolute;
+    right: 70px;
+    top: 30px;
+    background-color: black;
+    box-shadow: 30px 0px 0 20px white;
+    background-color: #191970;
+}

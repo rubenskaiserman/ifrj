@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>JavaScript01</title>
+    <meta charset="utf-8">
+
+    <style>
+        html {
+            text-align: center;
+            margin-top: 10%;
+            background-color: black;
+            color: goldenrod;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 200%;
+            font-weight: 900;
+        }
+
+        input {
+            padding: 1%;
+            border-radius: 10px 10px;
+            border: Solid goldenrod 5px;
+            background-color: black;
+            color: goldenrod;
+            font-size: 100%;
+        }
+
+        button {
+            padding: 1%;
+            border-radius: 10px 10px;
+            border: solid goldenrod 5px;
+            text-align: center;
+            font-weight: 900;
+            font-size: 100%;
+            color: goldenrod;
+            background-color: black;
+        }
+
+        button:hover {
+            background-color: goldenrod;
+            color: black;
+        }
+    </style>
+    <script>
+        function calcResult() {
+            num01 = Number(document.getElementById("num01").value)
+            num02 = Number(document.getElementById("num02").value)
+            document.getElementById("resultado").innerHTML = num01 + num02
+        }
+    </script>
+</head>
+
+<body>
+    <form id="form01" action="">
+        <p>
+            Valor 01: <input id="num01" name="num01" value="">
+        </p>
+        <p>
+            valor 02: <input id="num02" name="num02" value="">
+        </p>
+    </form>
+    <button onClick="calcResult()">Press Here</button>
+    <p>Resultado: <span id="resultado"></span></p>
+</body>
+
+</html>

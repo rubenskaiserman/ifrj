@@ -1,0 +1,91 @@
+<html>
+    <head>
+        <title>Index</title>
+        <meta charset="utf-8">
+
+        <style>
+            body{
+                background-color: #333;
+                color: white;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            }
+            input, select{
+                background-color: #333;
+                color: #fff;
+                margin: 10px;
+                border: #444 solid 1px;
+                border-radius: 7px 7px 7px 7px;
+                width: 500px;
+                text-align: left;
+                height: 40px;
+                box-shadow: 0px 1px 5px 1px #3a3a3a;
+                padding: 0 10px;
+            }
+            .sex{
+                height: 20px;
+                width: auto;
+            }
+            #finalizar{
+                width: 50%;
+                margin: 0 25%;
+                text-align: center;
+                background-color: #32a844;
+            }
+            #finalizar:hover{
+                background-color: #42b854;
+            }
+            
+            #cancel-button{
+                position: absolute;
+                top: 30px;
+                left: 40px;
+                color: white;
+                background-color: #f54242;
+                border: #f54242 solid 2px;
+                border-radius: 20px 20px 20px 20px;
+                font-size: 90%;
+                padding: 4px;
+                font-weight: 500;
+            }
+            #cancel-button:hover{
+                background-color: #ff4d4d;
+            }
+            main{
+                width: 40%;
+                margin: 60px auto;
+            }
+
+        </style>
+        <script>
+            function dropData(){
+                location.reload()
+            }
+        </script>
+
+
+
+
+    </head>
+    <body>
+        <main>
+            <button id="cancel-button" onclick="dropData()">Cancelar</button>
+            <form action="receiver.php" method="post">
+
+                <input type="text" name="Nome" required autocomplete="off" autofocus placeholder="Name"> <br>
+                <input type="radio" name="Sexo" class="sex" required value="Masculino"> M <br>
+                <input type="radio" name="Sexo" class="sex" required value="Feminino"> F <br>
+                <select name="Escolaridade" required>
+                    <option>Analfabeto</option>
+                    <option>Fundamental Incompleto</option>
+                    <option>Fundamental completo</option>
+                    <option>Ensino médio incompleto</option>
+                    <option>Ensino médio completo</option>
+                    <option>Maior</option>
+                </select><br>                 
+                <input type="date" name="Data-de-Nascimento" required> <br>
+                <input type="submit" value="Finalizar" id="finalizar"> <br>
+            </form>
+        </main>
+    </body>
+</html>
+<!-- Sempre tem mais coisas a serem feitas mas acho que já está caprichado o suficiente -->

@@ -1,0 +1,13 @@
+body{
+    background-color: darkmagenta;
+}
+
+#lua{
+    border-radius: 200px 200px;
+    height: 20em;
+    width: 20em;
+    margin: 200px auto;
+    background-color: darkmagenta;
+    box-shadow: 100px 0px 0 50px white;
+    background-color: darkmagenta1;
+}

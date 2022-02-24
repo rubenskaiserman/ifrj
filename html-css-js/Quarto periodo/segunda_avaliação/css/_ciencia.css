@@ -1,0 +1,56 @@
+body{
+    background-color: aquamarine;
+}
+#ponta{
+    border-radius: 200px 200px;
+    width: 6em;
+    height: 1em;
+    background-color: transparent;
+    margin: 0 auto;
+    border: solid;
+}
+#descida{
+    height: 9em;
+    background-color: transparent;
+    width: 5em;
+    margin: 0 auto;
+    border: solid;
+    margin-top: -3px;
+}
+
+#substancia{
+    background-color: purple;
+    height:3em;
+    /* margin-top: 6em; */
+}
+#onda{
+    height: 1em;
+    width: 70%;
+    background-color: purple;
+    margin: 5em 0 0 0;
+    border-radius: 0px 9900px 0px 0px;
+}
+
+#triangulo{
+    width: 0;
+    height: 0;
+    border-left: 230px solid transparent;
+    border-right: 230px solid transparent;
+    border-bottom: 300px solid purple;
+    position: absolute;
+    top: 121px;
+    left: 33.15%;
+}
+
+#fundo{
+    background-color: purple;
+    border-radius: 200px 200px ;
+    height: 2em;
+    width: 470px;
+    margin: 15em auto 0 auto ;
+}
+
+a{
+    text-decoration: none;
+    color: purple;
+}

@@ -1,0 +1,103 @@
+<html>
+    <head>
+        <title>Index</title>
+        <meta charset="utf-8">
+
+        <style>
+            body{
+                background-color: #333;
+                color: white;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            }
+            input, select{
+                background-color: #333;
+                color: #fff;
+                margin: 10px;
+                border: #444 solid 1px;
+                border-radius: 7px 7px 7px 7px;
+                width: 500px;
+                text-align: left;
+                height: 40px;
+                box-shadow: 0px 1px 5px 1px #3a3a3a;
+                padding: 0 10px;
+            }
+            .sex{
+                height: 20px;
+                width: auto;
+            }
+            #finalizar{
+                width: 50%;
+                margin: 0 25%;
+                text-align: center;
+                background-color: #32a844;
+            }
+            #finalizar:hover{
+                background-color: #42b854;
+            }
+            
+            #cancel-button{
+                position: absolute;
+                top: 30px;
+                left: 40px;
+                color: white;
+                background-color: #f54242;
+                border: #f54242 solid 2px;
+                border-radius: 20px 20px 20px 20px;
+                font-size: 90%;
+                padding: 4px;
+                font-weight: 500;
+            }
+            #cancel-button:hover{
+                background-color: #ff4d4d;
+            }
+            main{
+                width: 40%;
+                margin: 60px auto;
+            }
+
+        </style>
+        <script>
+            function dropData(){
+                location.reload()
+            }
+        </script>
+
+
+
+
+    </head>
+    <body>
+        <main>
+            <button id="cancel-button" onclick="dropData()">Cancelar</button>
+            <form action="res.php" method="get">
+
+                Dono do Animal: <input type="text" name="dono" required autocomplete="off" autofocus placeholder="Name"> <br>
+                Celular: <input type="tel" name="Phone" required autocomplete="off" autofocus placeholder="Name"> <br>
+                Data da consulta: <input type="date" name="Data-da-Consulta" required> <br>
+                Nome: <input type="text" name="nome" required autocomplete="off" autofocus placeholder="Name"> <br>
+                Animal: <select name="Animal">
+                    <option value=""></option>
+                    <option value="Cachorro">Cachorro</option>
+                    <option value="Gato">Gato</option>
+                    <option value="Ramster">Ramster</option>
+                    <option value="Papagaio">Papagaio</option>
+                </select>
+                Procedimento: <select name="procedimento">
+                    <option value=""></option>
+                    <option value="Oncologista">Banho</option>
+                    <option value="Tosa">Tosa</option>
+                    <option value="Vacinação">Vacinação</option>
+                    <option value="Vermifugação">Vermifugação</option>
+                </select>
+                <input type="radio" name="Tamanho" class="sex" required value="Pequeno"> Pequeno <br>
+                <input type="radio" name="Tamanho" class="sex" required value="Médio"> Médio <br>
+                <input type="radio" name="Tamanho" class="sex" required value="Médio"> Grande <br>
+                
+                <input type="submit" value="Finalizar" id="finalizar"> <br>
+            </form>
+        </main>
+    </body>
+</html>
+<!-- Sempre tem mais coisas a serem feitas mas acho que já está caprichado o suficiente -->
+
+<!-- Copiei e colei o código da outra questão mesmo -->

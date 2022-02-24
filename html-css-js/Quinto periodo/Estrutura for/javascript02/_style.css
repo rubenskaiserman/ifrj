@@ -1,0 +1,23 @@
+body{
+    background-color: black;
+    color: blueviolet;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+#res{
+    width: 50%;
+    text-align: center;
+    margin: 1% auto;
+    font-size: 200%;
+}
+
+#soma{
+    font-size: 300%;
+}
+
+#assinatura{
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    bottom: 1%;
+    right: 1%;
+}

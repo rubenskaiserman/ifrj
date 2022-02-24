@@ -1,0 +1,18 @@
+body{
+    background-color: black;
+    color: darkorchid;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 2em;
+}
+input{
+    background-color: darkorchid;
+    border: solid darkorchid;
+    color: black;
+    font-weight: 700;
+}
+button{
+    background-color: darkorchid;
+    border: solid darkorchid;
+    color: black;
+    font-weight: 700;
+}

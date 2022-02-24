@@ -1,0 +1,146 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    clear: both;
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    font-weight: 800;
+    color: black;
+}
+
+#brand {
+    background-color: #dd2739;
+    text-align: center;
+    font-size: 100%;
+    padding: 0.45%;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    color: white;
+}
+
+#brand span {
+    font-size: 250%;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 900;
+}
+
+#navigator {
+    text-align: center;
+    padding: 1%;
+    position: absolute;
+    top: 12%;
+    width: 98%;
+    background-color: white;
+
+}
+
+#navigator li {
+    display: inline;
+    margin: 1%;
+}
+
+#introducao img {
+    width: 100%;
+}
+
+#introduction {
+    text-align: center;
+    color: white;
+    width: 80%;
+    position: absolute;
+    top: 35%;
+    left: 10%;
+}
+
+#introduction h1 {
+    font-size: 300%;
+}
+
+#introduction p {
+    font-size: 120%;
+    width: 70%;
+    margin: 0 auto;
+}
+
+section {
+    width: 50%;
+    margin: 0 auto;
+    font-size: 120%;
+}
+
+#introdutor #creditos {
+    text-align: center;
+}
+
+.box {
+    border: solid;
+    border-color: black;
+    border-width: 1px;
+    padding: 4% 3%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 115%;
+    box-shadow: 5px 5px;
+}
+
+img {
+    width: 100%;
+}
+
+#parte-preta {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    box-shadow: white;
+}
+
+#parte-preta .box {
+    width: 40%;
+    margin: 1% auto;
+    border-color: white;
+}
+
+#space {
+    margin: 160%;
+}
+
+#mudanca {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    background-color: black;
+}
+
+#mudanca img {
+    width: 50%;
+    margin: 0 25%;
+
+}
+
+#get-out {
+    height: 22em;
+}
+
+#parte-amarela {
+    position: absolute;
+    left: 0;
+    padding: 1% 0;
+    background-color: #ffc20e;
+    width: 100%;
+
+}
+
+#inside-the-yellow{
+    width: 50%;
+    margin: 0 auto;
+}
+
+#i-am-tired{
+    height: 90em;
+}

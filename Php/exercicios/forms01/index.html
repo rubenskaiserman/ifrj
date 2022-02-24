@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>Index</title>
+        <meta charset="utf-8">
+
+      <style>
+          body{text-align:center;}
+      </style>
+    </head>
+    <body>
+        <main>
+            <form action="register.php" method="post">
+                <input type="text" name="name" required autocomplete="off" autofocus placeholder="Name"> <br>
+                <input type="radio" name="sexo" required value="Masculino"> M <br>
+                <input type="radio" name="sexo" required value="Feminino"> F <br>
+                <select name="school" required>
+                    <option>Analfabeto</option>
+                    <option>Fundamental Incompleto</option>
+                    <option>Fundamental completo</option>
+                    <option>Ensino médio incompleto</option>
+                    <option>Ensino médio completo</option>
+                    <option>Maior</option>
+                </select><br>                 
+                <input type="date" name="birthday" required> <br>
+                <input type="submit" value="Enter"> <br>
+            </form>
+        </main>
+    </body>
+</html>

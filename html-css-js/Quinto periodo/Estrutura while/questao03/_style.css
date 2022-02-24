@@ -1,0 +1,35 @@
+body{
+    background-color: black;
+    color: crimson;
+    font-size: 180%;
+    font-family: fantasy;
+}
+div{
+    width: 30%;
+    margin: 1% auto;
+}
+input{
+    background-color: black;
+    color: crimson;
+    border: solid crimson 3px;
+    font-size: 100%;
+    width: 50%;
+    font-family: fantasy;
+    text-align: center;
+    border-radius: 5px 5px;
+}
+button{
+    background-color: black;
+    padding: 1%;
+    color: crimson;
+    font-family: fantasy;
+    font-size: 90%;
+    border: 5px solid crimson;
+    border-radius: 10px 10px;
+    margin: 1% auto;
+    
+}
+button:hover{
+    background-color: crimson;
+    color: black;
+}

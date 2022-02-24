@@ -1,0 +1,17 @@
+a{
+    width: 100%;
+    text-decoration: none;
+    color: royalblue;
+    font-weight: 900;
+    font-size: 200%;
+}
+
+div{
+    width: 100%;
+    text-align: center;
+    padding: 5%;
+}
+
+div:hover{
+    background-color: C0C0C0;
+}
