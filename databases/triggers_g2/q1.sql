@@ -11,5 +11,5 @@ BEGIN
 END $$
 DELIMITER ;
 
-INSERT INTO VENDAS(codigo, codcliente, datavenda, nf) VALUES(1234567, 12334, NOW(), 'Testando'); 
-INSERT INTO ITEMVENDAS(codvenda, quantidade, codproduto) VALUES(1234567, 4, 5)
+-- INSERT INTO VENDAS(codigo, codcliente, datavenda, nf) VALUES(1234567, 12334, NOW(), 'Testando'); 
+-- INSERT INTO ITEMVENDAS(codvenda, quantidade, codproduto) VALUES(1234567, 4, 5)

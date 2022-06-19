@@ -1,0 +1,15 @@
+USE ASIATICAS_DB
+
+DROP TRIGGER IF EXISTS trg_q10;
+DELIMITER $$
+    CREATE TRIGGER trg_q10 AFTER UPDATE ON PRODUTOS
+    FOR EACH ROW
+    BEGIN
+        IF NEW.quantidade < NEW.minimo THEN
+            INSERT INTO REQUISICAO_COMPRA(codproduto, data, quantidade) VALUES(NEW.codigo, NOW(), 10 * NEW.minimo);
+        END IF;
+    END$$
+DELIMITER ;
+
+-- UPDATE PRODUTOS SET quantidade=2 WHERE codigo=5;
+-- SELECT * FROM REQUISICAO_COMPRA;

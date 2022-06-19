@@ -1,0 +1,13 @@
+USE ASIATICAS_DB
+
+DROP TRIGGER IF EXISTS trg_q8;
+DELIMITER $$
+CREATE TRIGGER trg_q8 AFTER DELETE ON ITEMVENDAS
+FOR EACH ROW
+BEGIN
+    INSERT INTO LOG(data, descricao) VALUES(NOW(), CONCAT("O pedido de código ", OLD.codigo,  " foi cancelado"));
+END$$
+DELIMITER ;
+
+-- INSERT INTO ITEMVENDAS(codvenda, codproduto) VALUES(6, 5);
+-- DELETE FROM ITEMVENDAS WHERE codigo=15;
