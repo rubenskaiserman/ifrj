@@ -1,2 +1,2 @@
 # IFRJ
-Esse é o repositório onde eu vou armazenar os arquivos de código referentes ao meu período de estudos no Instituto Federal do Rio de Janeiro
+Então, eu construí esse repositório enquanto estava cursando informática no Instituto Federal do Rio de Janeiro. Guardei boa parte dos meus trabalhos aqui.
